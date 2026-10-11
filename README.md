@@ -2,7 +2,7 @@
 An end-to-end ML pipeline predicting telco customer churn. Features SMOTE for imbalanced data, Random Forest classification, and SHAP for model explainability. Deployed as a microservice using a FastAPI backend, an interactive Streamlit dashboard, Docker, and Google Cloud Run.
 Customer retention is critical for subscription-based services. This repository contains a complete workflow for predicting which customers are at risk of leaving. It handles data preprocessing, class imbalance, model training, and serves predictions through a REST API connected to an interactive frontend.
 
-✨ Key Features
+** ✨ Key Features
 
 Exploratory Data Analysis (EDA): Visualized feature distributions and correlations across 7,000+ customer records using Matplotlib and Seaborn.
 
@@ -19,7 +19,7 @@ Interactive Dashboard: Built a user-friendly Streamlit web application for real-
 Containerization & Deployment: Fully containerized the application using Docker and configured for seamless deployment on Google Cloud Run.
 
 
-🛠️ Tech Stack
+** 🛠️ Tech Stack
 
 Machine Learning & Data Processing: Python, Scikit-learn, Imbalanced-learn (SMOTE), Pandas, NumPy
 
